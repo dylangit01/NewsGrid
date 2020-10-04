@@ -58,6 +58,10 @@
         width: 100%;
     }
 
+    .page-container {
+        grid-template-columns: 1fr;
+    }
+
     .page-container > *:first-child {
         grid-row : 1;
     }
